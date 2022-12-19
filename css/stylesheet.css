@@ -1,0 +1,138 @@
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+    width: 20%;
+    text-align:center;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#boutonPresentation:hover 
+{
+
+    border-bottom: 3px solid #D2B4DE;
+    font-style: italic;
+    
+}
+#boutonCT:hover
+{
+    border-bottom:3px solid #AED6F1;
+    font-style:italic;
+}
+#boutonAlternance:hover
+{
+    border-bottom: 3px solid #F5B7B1;
+    font-style: italic;
+}
+#boutonContact:hover
+{
+    border-bottom: 3px solid #69d07e;
+    font-style: italic;
+}
+#boutonCV:hover
+{
+    border-bottom: 3px solid #FAD7A0;
+    font-style: italic;
+}
+
+h2
+{
+    text-decoration:underline;
+    font-style: italic;
+    clear: both;
+
+}
+#presentation
+{
+  text-decoration-color:#D2B4DE ;
+
+}
+#competencestechniques
+{
+    text-decoration-color: #AED6F1;
+
+
+}
+#alternance{
+    text-decoration-color: #F5B7B1 ;
+
+}
+#contact
+{
+    text-decoration-color: #69d07e;
+}
+
+.floatLeft
+{
+    float: left;
+}
+.floatRight
+{
+    float:right
+}
+
+#avatar
+{
+    margin: 5%;
+}
+#propos
+{
+    margin-top: 5%;
+}
+#PartOne
+{
+    display: flex;
+    flex-direction:row ;
+    border: solid;
+    border-top-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    box-shadow: 10px 5px 5px ;
+    margin: 5%;
+}
+#PartTwo
+{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+.column
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: justify;
+  
+    
+}
+#infopr li 
+{
+    list-style-type:none;
+
+}
+#comptech
+{
+    margin-left: 10%;
+
+}
+#infopr
+{
+margin-right: 10%;
+}
+
+#info
+{
+    text-align: center
+}
